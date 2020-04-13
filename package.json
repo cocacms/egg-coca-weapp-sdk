@@ -1,6 +1,6 @@
 {
   "name": "egg-coca-weapp-sdk",
-  "version": "2.0.0-beta.1",
+  "version": "2.0.0-beta.2",
   "description": "coca weapp sdk",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "eggPlugin": {
     "name": "cocaWeappSdk",
     "dependencies": [
-      "egg-redis"
+      "redis"
     ]
   },
   "dependencies": {
