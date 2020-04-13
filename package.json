@@ -4,7 +4,7 @@
   "description": "coca weapp sdk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rojer95/egg-coca-wx-member.git"
+    "url": "https://github.com/rojer95/egg-coca-weapp-sdk.git"
   },
   "eggPlugin": {
     "name": "cocaWeappSdk",
