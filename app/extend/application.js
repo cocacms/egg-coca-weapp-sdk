@@ -5,7 +5,7 @@ const dayjs = require("dayjs");
 const WEAPPSDKS = Symbol("Application#sdks");
 
 module.exports = {
-  async weapp(key = "default") {
+  weapp(key = "default") {
     if (!this[WEAPPSDKS]) {
       this[WEAPPSDKS] = {};
     }
