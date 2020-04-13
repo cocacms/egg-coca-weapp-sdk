@@ -16,7 +16,8 @@ module.exports = {
         throw new Error("请先配置小程序sdk参数");
       }
       this[WEAPPSDKS][key] = weappsdk(
-        ...config,
+        config.appId,
+        config.appSecret,
         async () => {
           return await this.get_token(key);
         },
